@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint2</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        @import url('https://www.w3schools.com/css/img_lights.jpg');
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Open+Sans&family=Roboto:wght@500&display=swap');
+        @media screen and (max-width: 990px){
+            #cardcontainer > .carditem:nth-child(n+7){
+        display: none;
+    }
+    }
+        @media screen and (max-width: 600px){
+    #cardcontainer > .carditem {
+        flex-basis:100%;
+    }
+    .cardtext > p{
+        display: block;
+        font-size: 1.2em;
+    }
+    .cardtext > .parashort{
+        display: none;
+    }
+    #cardcontainer{
+        padding-bottom: 5%;
+    }
+    #cardcontainer > .carditem:nth-child(n+4){
+        display: none;
+    }
+}
+    </style>
+</head>
+<body>
+    <!-- (A) MENU WRAPPER -->
+    <nav id="superheader">
+    <!-- (B) THE HAMBURGER -->
+        <a class="headerchild logo" href="index.html"> 2DARTIST MAGAZINE </a>
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger"/>
+
+    
+    <!-- (C) MENU ITEMS -->
+        <div id="headeritems">
+            <a class="headerchild" href="page1.html">Articles</a>
+            <a class="headerchild" href="Showcase.html">Showcase</a>
+            <a class="headerchild" href="Resources.html">Resources</a>
+            <a class="headerchild" href="Subscriptions.html">Subscriptions</a>
+            <a class="headerchild" href="Contact.html">Contact</a>
+        </div>
+           <!-- 
+        <div class="orga">
+            <div class="searchbox">Search...</div>
+            <a class="headerchild login" href="SP2.html">Log In</a>
+            <a class="headerchild signup" href="SP2.html">Sign Up</a>
+        </div>
+    -->
+    </nav>
+    
+    <div id="previewbox">
+        <a href="index.html">
+            <img src="Images/previewbox.png" alt="Artwork by Greg Rutkowski" width="100%" object-fit="cover">
+            <div class="previewtext"><h2>Lost in the Future</h2>
+            <p class="previewtext">Learn from this week's special guest Greg Rutowski how to create instantly recognizable sci-fi environments that instill awe in your viewers! <br>Dive deeply into the secrets that are usually hidden behind heavy NDA-doors and level up your skills.</p>
+            <p class="previewtext parashort"> An exclusive 2DARTIST Magazine's Masterclass with Greg Rutowski</p></a>
+            <div class="profilepic">
+                <img src="Photoshop/MASTER_Pics-Container-assets/Pic_13.png" alt="" width="100%">
+                <div class="profileinfo"><h2>Greg Rutowski</h2>
+                <p>Concept Artist, Illustrator
+                    at KeyStone
+                    <br>
+                    <br>
+                GregRutowskiArt.com</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-header"><h2>Articles | Issue 096</h2><a href="page1.html">See more</a></div>
+    <div id="cardcontainer">
+        <a class= "carditem" href="Article4.html">
+            <img src="Photoshop/MASTER_Thumbnails-assets/TH_4.png" alt="Midjourney" width="50%">
+            <div class="cardtext"><h2>Paint Fantasy Scenery</h2>
+            <p>Follow along as guest artist YongSub Noh teaches you how to paint the fantasy landscape of your dreams.</p>
+            <p class="parashort">YongSub Noh teaches you the intricacies of scene design.</p></div>
+        </a>
+        <a class= "carditem" href="Article1.html">
+            <img src="Photoshop/MASTER_Thumbnails-assets/TH_1.png" alt="Midjourney" width="50%">
+            <div class="cardtext"><h2>/imagine that!</h2>
+            <p>AI has come and seems to be here to stay. But not all hope is lost. Glaze, a new form of protection for artists has emerged and looks promising.</p>
+            <p class="parashort">Is Glaze truly our knight in shining armor?</p></div>
+        </a>
+        <a class= "carditem" href="Article2.html">
+            <img src="Photoshop/MASTER_Thumbnails-assets/TH_2.png" alt="Midjourney" width="50%">
+            <div class="cardtext"><h2>Steam and Rust</h2>
+                <p>The fascination with steam-powered machinery is evergreen. But what lies beneath the surface and how easy is it to recreate pieces in that style?</p>
+                <p class="parashort">Jason Horley talks about his process working in movies.</p></div>
+        </a>
+        <a class= "carditem" href="Article3.html">
+            <img src="Photoshop/MASTER_Thumbnails-assets/TH_3.png" alt="Midjourney" width="50%">
+            <div class="cardtext"><h2>Matte Painting</h2>
+            <p>Framestore-employed Jason Horley takes us on a tour through his process as a concept artist for movies such as <i>Harry Potter </i>and <i>Gravity.</i></p>
+            <p class="parashort">Jason Horley talks about his process working in movies.</p></div>
+        </a>
+        <a class= "carditem" href="Article5.html">
+            <img src="Photoshop/MASTER_Thumbnails-assets/TH_5.png" alt="Midjourney" width="50%">
+            <div class="cardtext"><h2>The Idea Factory</h2>
+            <p>We've all felt the burden of feeling creative burnout. Richard Tilbury shares his strategies of pushing through and generating ideas.</p>
+            <p class="parashort">Richard Tilbury shares his idea-finding strategies.</p></div>
+        </a>
+        <a class= "carditem" href="Article6.html">
+            <img src="Photoshop/MASTER_Thumbnails-assets/TH_6.png" alt="Midjourney" width="50%">
+            <div class="cardtext"><h2>All the Mechs</h2>
+            <p>Drawing robots is one thing. Drawing believable mechs another. Albert Ramon Puig shows where the differences lie and what tricks to use.</p>
+            <p class="parashort">Learn to draw believable Mechs with Albert Ramon Puig.</p></div>
+        </a>
+    </div>
+    <div class="seemore"> 
+        <a href="page1.html">See More</a>
+        </div>
+
+
+    <div class="pics-header"><h2>Monthly Showcase</h2> <a href="Showcase.html">See more</a></div>
+    <div id="pics-container">
+        <div class="grid-item">
+            <a href="Showcase1.html"><img src="Photoshop/MASTER_Pics-Container-assets/Pic_1.png" alt="" width="100%" ></a>
+        </div>
+        <div class="grid-item">
+            <a href="Showcase2.html"><img src="Photoshop/MASTER_Pics-Container-assets/Pic_2.png" alt="" width="100%" ></a>
+        </div>
+        <div class="grid-item">
+            <a href="Showcase3.html"><img src="Photoshop/MASTER_Pics-Container-assets/Pic_3.png" alt="" width="100%" ></a>
+        </div>
+        <div class="grid-item">
+            <a href="Showcase4.html"><img src="Photoshop/MASTER_Pics-Container-assets/Pic_4.png" alt="" width="100%" ></a>
+        </div>
+        <div class="grid-item">
+            <a href="Showcase5.html"><img src="Photoshop/MASTER_Pics-Container-assets/Pic_5.png" alt="" width="100%" ></a>
+        </div>
+        <div class="grid-item">
+            <a href="Showcase6.html"><img src="Photoshop/MASTER_Pics-Container-assets/Pic_6.png" alt="" width="100%" ></a>
+        </div>
+        <div class="grid-item">
+            <a href="Showcase7.html"><img src="Photoshop/MASTER_Pics-Container-assets/Pic_7.png" alt="" width="100%" ></a>
+        </div>
+        <div class="grid-item">
+            <a href="Showcase8.html"><img src="Photoshop/MASTER_Pics-Container-assets/Pic_8.png" alt="" width="100%" ></a>
+        </div>
+        <div class="grid-item">
+            <a href="Showcase9.html"><img src="Photoshop/MASTER_Pics-Container-assets/Pic_9.png" alt="" width="100%" ></a>
+        </div>
+        <div class="grid-item">
+            <a href="Showcase10.html"><img src="Photoshop/MASTER_Pics-Container-assets/Pic_10.png" alt="" width="100%" ></a>
+        </div>
+        <div class="grid-item">
+            <a href="Showcase11.html"><img src="Photoshop/MASTER_Pics-Container-assets/Pic_11.png" alt="" width="100%" ></a>
+        </div>
+        <div class="grid-item">
+            <a href="Showcase12.html"><img src="Photoshop/MASTER_Pics-Container-assets/Pic_12.png" alt="" width="100%" ></a>
+        </div>
+    </div>
+    <div class="seemore"> 
+        <a href="Showcase.html">See More</a>
+        </div>
+</body>
+<footer>
+    <div id="footertext">Copyright by 2DArtist Magazine 2023 <br>
+    All Copyright goes to the artists mentioned on the respective pages.</div>
+</footer>
+</html>

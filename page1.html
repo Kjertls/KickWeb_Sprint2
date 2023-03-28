@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint2</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        @import url('https://www.w3schools.com/css/img_lights.jpg');
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Open+Sans&family=Roboto:wght@500&display=swap');
+        @media screen and (max-width: 600px){
+    #cardcontainer > .carditem {
+        flex-basis:100%;
+    }
+    .cardtext > p{
+        display: block;
+        font-size: 1.2em;
+    }
+    .cardtext > .parashort{
+        display: none;
+    }
+    #cardcontainer{
+        padding-bottom: 5%;
+    }
+    
+}
+   </style>
+</head>
+<body>
+    <!-- (A) MENU WRAPPER -->
+    <nav id="superheader">
+    <!-- (B) THE HAMBURGER -->
+        <a class="headerchild logo" href="index.html"> 2DARTIST MAGAZINE </a>
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger"/>
+
+    
+    <!-- (C) MENU ITEMS -->
+        <div id="headeritems">
+            <a class="headerchild" href="page1.html">Articles</a>
+            <a class="headerchild" href="Learning.html">Learning</a>
+            <a class="headerchild" href="Showcase.html">Showcase</a>
+            <a class="headerchild" href="Resources.html">Resources</a>
+            <a class="headerchild" href="Subscriptions.html">Subscriptions</a>
+            <a class="headerchild" href="Contact.html">Contact</a>
+        </div>
+           <!-- 
+        <div class="orga">
+            <div class="searchbox">Search...</div>
+            <a class="headerchild login" href="SP2.html">Log In</a>
+            <a class="headerchild signup" href="SP2.html">Sign Up</a>
+        </div>
+    -->
+    </nav>
+    
+    
+    
+    <div class="articles-header">
+        <img src="Photoshop/MASTER_Preview-assets/Articles.png" alt="" width="100%">
+        <h1 class="ArticlesTitle">Articles</h1>
+        <div class="issue"><h2>Issue 096</h2><a href="page1.html" class="earlierissues">See Earlier Issues</a></div>
+    </div>
+    
+    <div class="forwardback"> 
+        <div> << </div>
+        <div> 1 </div>
+        <a href="Articles1.html"> 2 </a>
+        <a href="Articles2.html"> 3 </a>
+        <a href="Articles3.html"> >> </a>
+        </div>
+
+    <div id="cardcontainer">
+        <a class= "carditem" href="Article4.html">
+            <img src="Photoshop/MASTER_Thumbnails-assets/TH_4.png" alt="Midjourney" width="50%">
+            <div class="cardtext"><h2>Paint Fantasy Scenery</h2>
+            <p>Follow along as guest artist YongSub Noh teaches you how to paint the fantasy landscape of your dreams.</p>
+            <p class="parashort">YongSub Noh teaches you the intricacies of scene design.</p></div>
+        </a>
+        <a class= "carditem" href="Article1.html">
+            <img src="Photoshop/MASTER_Thumbnails-assets/TH_1.png" alt="Midjourney" width="50%">
+            <div class="cardtext"><h2>/imagine that!</h2>
+            <p>AI has come and seems to be here to stay. But not all hope is lost. Glaze, a new form of protection for artists has emerged and looks promising.</p>
+            <p class="parashort">Is Glaze truly our knight in shining armor?</p></div>
+        </a>
+        <a class= "carditem" href="Article2.html">
+            <img src="Photoshop/MASTER_Thumbnails-assets/TH_2.png" alt="Midjourney" width="50%">
+            <div class="cardtext"><h2>Steam and Rust</h2>
+                <p>The fascination with steam-powered machinery is evergreen. But what lies beneath the surface and how easy is it to recreate pieces in that style?</p>
+                <p class="parashort">Jason Horley talks about his process working in movies.</p></div>
+        </a>
+        <a class= "carditem" href="Article3.html">
+            <img src="Photoshop/MASTER_Thumbnails-assets/TH_3.png" alt="Midjourney" width="50%">
+            <div class="cardtext"><h2>Matte Painting</h2>
+            <p>Framestore-employed Jason Horley takes us on a tour through his process as a concept artist for movies such as <i>Harry Potter </i>and <i>Gravity.</i></p>
+            <p class="parashort">Jason Horley talks about his process working in movies.</p></div>
+        </a>
+        <a class= "carditem" href="Article5.html">
+            <img src="Photoshop/MASTER_Thumbnails-assets/TH_5.png" alt="Midjourney" width="50%">
+            <div class="cardtext"><h2>The Idea Factory</h2>
+            <p>We've all felt the burden of feeling creative burnout. Richard Tilbury shares his strategies of pushing through and generating ideas.</p>
+            <p class="parashort">Richard Tilbury shares his idea-finding strategies.</p></div>
+        </a>
+        <a class= "carditem" href="Article6.html">
+            <img src="Photoshop/MASTER_Thumbnails-assets/TH_6.png" alt="Midjourney" width="50%">
+            <div class="cardtext"><h2>All the Mechs</h2>
+            <p>Drawing robots is one thing. Drawing believable mechs another. Albert Ramon Puig shows where the differences lie and what tricks to use.</p>
+            <p class="parashort">Learn to draw believable Mechs with Albert Ramon Puig.</p></div>
+        </a>
+        <a class= "carditem" href="Article7.html">
+            <img src="Photoshop/MASTER_Thumbnails-assets/TH_7.png" alt="Midjourney" width="50%">
+            <div class="cardtext"><h2>"What Brush do you use?"</h2>
+            <p>It's every beginner's favorite question, though the answer is often disappointing. Still, we asked 50 artists to tell us their first pick.</p>
+            <p class="parashort">50 artists tell us what their favorite brushes are.</p></div>
+        </a>
+        <a class= "carditem" href="Article8.html">
+            <img src="Photoshop/MASTER_Thumbnails-assets/TH_8.png" alt="Midjourney" width="50%">
+            <div class="cardtext"><h2>Truly Alien</h2>
+            <p>Let's face it, it's hard to design creatures who still invoke a sense of "other". Robyn Marks, concept artist on "Starcraft" shares his thoughts. </p>
+            <p class="parashort">Robyn Marks talks about designing otherworldly presences.</p></div>
+        </a>
+        <a class= "carditem" href="Article9.html">
+            <img src="Photoshop/MASTER_Thumbnails-assets/TH_9.png" alt="Midjourney" width="50%">
+            <div class="cardtext"><h2>7 Heads Tall</h2>
+            <p>To create a solid character design, you first need a solid knowledge of anatomical principles. But does gesture drawing truly hold the key to success?</p>
+            <p class="parashort">A closer look at the practice of gesture drawing.</p></div>
+        </a>
+    </div>
+    <div class="forwardback"> 
+        <div> << </div>
+        <div> 1 </div>
+        <a href="Articles1.html"> 2 </a>
+        <a href="Articles2.html"> 3 </a>
+        <a href="Articles3.html"> >> </a>
+        </div>
+     
+</body>
+<footer>
+    <div id="footertext">Copyright by 2DArtist Magazine 2023 <br>
+    All Copyright goes to the artists mentioned on the respective pages.</div>
+</footer>
+</html>
